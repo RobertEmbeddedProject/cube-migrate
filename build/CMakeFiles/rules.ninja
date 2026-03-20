@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: LLVM_Testing_Program
+# Project: guitar_pedal
 # Configurations: 
 # =============================================================================
 # =============================================================================
@@ -14,7 +14,7 @@
 #############################################
 # Rule for compiling ASM files.
 
-rule ASM_COMPILER__LLVM_Testing_Program.2eelf_unscanned_
+rule ASM_COMPILER__guitar_pedal.2eelf_unscanned_
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}arm-none-eabi-gcc $DEFINES $INCLUDES $FLAGS -o $out -c $in
@@ -24,7 +24,7 @@ rule ASM_COMPILER__LLVM_Testing_Program.2eelf_unscanned_
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__LLVM_Testing_Program.2eelf_unscanned_
+rule C_COMPILER__guitar_pedal.2eelf_unscanned_
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}arm-none-eabi-gcc $DEFINES $INCLUDES $FLAGS -o $out -c $in
@@ -34,7 +34,7 @@ rule C_COMPILER__LLVM_Testing_Program.2eelf_unscanned_
 #############################################
 # Rule for linking C executable.
 
-rule C_EXECUTABLE_LINKER__LLVM_Testing_Program.2eelf_
+rule C_EXECUTABLE_LINKER__guitar_pedal.2eelf_
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && arm-none-eabi-gcc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT

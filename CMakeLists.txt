@@ -4,7 +4,8 @@ set(CMAKE_SYSTEM_NAME Generic)
 set(CMAKE_SYSTEM_PROCESSOR arm)
 set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
 
-project(LLVM_Testing_Program C ASM)
+#project(LLVM_Testing_Program C ASM)
+project(guitar_pedal C ASM)
 
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
@@ -70,7 +71,7 @@ include_directories(
 )
 
 set(PROJECT_SOURCES
-    Src/LLVM_Main.c
+    Src/main.c
     Src/stm32f7xx_hal_msp.c
     Src/stm32f7xx_it.c
     Src/syscalls.c

@@ -1,7 +1,0 @@
-C:/Users/rfink/STM32CubeIDE/guitar_pedal_ez/Src/LLVM_Main.c:260:13:LCD_Unselect	0	static
-C:/Users/rfink/STM32CubeIDE/guitar_pedal_ez/Src/LLVM_Main.c:254:13:LCD_Select	0	static
-C:/Users/rfink/STM32CubeIDE/guitar_pedal_ez/Src/LLVM_Main.c:301:13:LCD_WriteCommand	16	static
-C:/Users/rfink/STM32CubeIDE/guitar_pedal_ez/Src/LLVM_Main.c:321:13:LCD_WriteData	16	static
-C:/Users/rfink/STM32CubeIDE/guitar_pedal_ez/Src/LLVM_Main.c:341:13:LCD_WriteDataByte	16	static
-C:/Users/rfink/STM32CubeIDE/guitar_pedal_ez/Src/LLVM_Main.c:577:13:LCD_FillRect.part.0	168	static
-C:/Users/rfink/STM32CubeIDE/guitar_pedal_ez/Src/LLVM_Main.c:80:5:main	64	static

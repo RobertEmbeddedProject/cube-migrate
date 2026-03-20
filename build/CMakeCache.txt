@@ -106,7 +106,7 @@ CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=C:/Users/rfink/STM32CubeIDE/guitar_pedal_ez/build/CMakeFiles/pkgRedirects
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/LLVM_Testing_Program
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/guitar_pedal
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/Program Files/LLVM/bin/lld-link.exe
@@ -153,7 +153,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=LLVM_Testing_Program
+CMAKE_PROJECT_NAME:STATIC=guitar_pedal
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=
@@ -236,13 +236,13 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-LLVM_Testing_Program_BINARY_DIR:STATIC=C:/Users/rfink/STM32CubeIDE/guitar_pedal_ez/build
+guitar_pedal_BINARY_DIR:STATIC=C:/Users/rfink/STM32CubeIDE/guitar_pedal_ez/build
 
 //Value Computed by CMake
-LLVM_Testing_Program_IS_TOP_LEVEL:STATIC=ON
+guitar_pedal_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-LLVM_Testing_Program_SOURCE_DIR:STATIC=C:/Users/rfink/STM32CubeIDE/guitar_pedal_ez
+guitar_pedal_SOURCE_DIR:STATIC=C:/Users/rfink/STM32CubeIDE/guitar_pedal_ez
 
 
 ########################
