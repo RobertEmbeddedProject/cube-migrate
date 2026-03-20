@@ -1,0 +1,5 @@
+C:/Users/rfink/STM32CubeIDE/packBookTROS/BSP/Nucleo_F767ZI_Init.c:34:10:StmRand	1
+C:/Users/rfink/STM32CubeIDE/packBookTROS/BSP/Nucleo_F767ZI_Init.c:40:6:SystemClock_Config	1
+C:/Users/rfink/STM32CubeIDE/packBookTROS/BSP/Nucleo_F767ZI_Init.c:20:6:HWInit	1
+C:/Users/rfink/STM32CubeIDE/packBookTROS/BSP/Nucleo_F767ZI_Init.c:169:6:Error_Handler	1
+C:/Users/rfink/STM32CubeIDE/packBookTROS/BSP/Nucleo_F767ZI_Init.c:185:6:assert_failed	1
