@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/rfink/STM32CubeIDE/guitar_pedal_ez/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
